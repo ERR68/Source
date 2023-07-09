@@ -72,7 +72,7 @@ async def get_users(event):
                 return await zedb.edit(f"**حالة الإضافة انتهت مع الأخطاء**\n- (**ربما هنالك ضغط على الأمر حاول مجددا لاحقا **) \n**الخطأ** : \n`{error}`\n\n• إضافة `{s}` \n• خطأ بإضافة `{f}`")
             await zedub(InviteToChannelRequest(channel=event.chat_id, users=[user.id]))
             s = s + 1
-            await zedb.edit(f"**⎉╎تتم الإضافة **\n\n• إضيف `{s}` \n•  خطأ بإضافة `{f}` \n\n**× اخر خطأ:** `{error}`")
+            await zedb.edit(f"**⎉╎تتم الإضافة **\n\n• إضيف `{s}` \n•  خطأ بإضافة `{f}` \n\n**× آخـر خطأ:** `{error}`")
         except Exception as e:
             error = str(e)
             f = f + 1

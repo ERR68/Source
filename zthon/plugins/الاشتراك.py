@@ -41,7 +41,7 @@ async def _(event):
                 delgvar("Custom_Pm_Channel")
                 addgvar("Custom_Pm_Channel", f"-100{p.id}")
                 return await edit_or_reply(
-                    event, f"**⎆╎تم إضافة قناة الاشتراك الاجباري للخاص .. بنجـاح ☑️**\n\n**⎆╎يوزر القناة : ↶** `{input_str}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎ارسـل الآن** `.اشتراك خاص`"
+                    event, f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للخاص .. بنجـاح ☑️**\n\n**⎆╎يوزر القناة : ↶** `{input_str}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎أرسـل الآن** `.اشتراك خاص`"
                 )
         except Exception:
             try:
@@ -50,7 +50,7 @@ async def _(event):
                     delgvar("Custom_Pm_Channel")
                     addgvar("Custom_Pm_Channel", f"-100{p.id}")
                     return await edit_or_reply(
-                        event, f"**⎆╎تم إضافة قناة الاشتراك الاجباري للخاص .. بنجـاح ☑️**\n\n**⎆╎اسم القناة : ↶** `{p.title}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎ارسـل الآن** `.اشتراك خاص`"
+                        event, f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للخاص .. بنجـاح ☑️**\n\n**⎆╎اسم القناة : ↶** `{p.title}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎أرسـل الآن** `.اشتراك خاص`"
                     )
             except Exception as e:
                 LOGS.info(str(e))
@@ -63,7 +63,7 @@ async def _(event):
             addgvar("Custom_Pm_Channel", event.chat_id)
             await edit_or_reply(
                 event,
-                f"**⎆╎تم إضافة قناة الاشتراك الاجباري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎ارسـل الآن** `.اشتراك خاص`",
+                f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎أرسـل الآن** `.اشتراك خاص`",
             )
 
         else:
@@ -72,14 +72,14 @@ async def _(event):
             addgvar("Custom_Pm_Channel", event.chat_id)
             await edit_or_reply(
                 event,
-                f"**⎆╎تم إضافة قناة الاشتراك الاجباري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎ارسـل الآن** `.اشتراك خاص`",
+                f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎أرسـل الآن** `.اشتراك خاص`",
             )
 
     else:
         await asyncio.sleep(1.5)
         delgvar("Custom_Pm_Channel")
         addgvar("Custom_Pm_Channel", event.chat_id)
-        await edit_or_reply(event, f"**⎆╎تم إضافة قناة الاشتراك الاجباري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎ارسـل الآن** `.اشتراك خاص`")
+        await edit_or_reply(event, f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للخاص .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎أرسـل الآن** `.اشتراك خاص`")
 
 
 
@@ -96,7 +96,7 @@ async def _(event):
                 delgvar("Custom_G_Channel")
                 addgvar("Custom_G_Channel", f"-100{p.id}")
                 return await edit_or_reply(
-                    event, f"**⎆╎تم إضافة قناة الاشتراك الاجباري للكروب .. بنجـاح ☑️**\n\n**⎆╎يوزر القناة : ↶** `{input_str}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎ارسـل الآن** `.اشتراك كروب`"
+                    event, f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للكروب .. بنجـاح ☑️**\n\n**⎆╎يوزر القناة : ↶** `{input_str}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎أرسـل الآن** `.اشتراك كروب`"
                 )
         except Exception:
             try:
@@ -105,7 +105,7 @@ async def _(event):
                     delgvar("Custom_G_Channel")
                     addgvar("Custom_G_Channel", f"-100{p.id}")
                     return await edit_or_reply(
-                        event, f"**⎆╎تم إضافة قناة الاشتراك الاجباري للكروب .. بنجـاح ☑️**\n\n**⎆╎اسم القناة : ↶** `{p.title}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎ارسـل الآن** `.اشتراك كروب`"
+                        event, f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للكروب .. بنجـاح ☑️**\n\n**⎆╎اسم القناة : ↶** `{p.title}`\n**⎆╎ايدي القناة : ↶** `{p.id}`\n\n**⎆╎أرسـل الآن** `.اشتراك كروب`"
                     )
             except Exception as e:
                 LOGS.info(str(e))
@@ -118,7 +118,7 @@ async def _(event):
             addgvar("Custom_G_Channel", event.chat_id)
             await edit_or_reply(
                 event,
-                f"**⎆╎تم إضافة قناة الاشتراك الاجباري للكروب .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎ارسـل الآن** `.اشتراك كروب`",
+                f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للكروب .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎أرسـل الآن** `.اشتراك كروب`",
             )
 
         else:
@@ -127,7 +127,7 @@ async def _(event):
             addgvar("Custom_G_Channel", event.chat_id)
             await edit_or_reply(
                 event,
-                f"**⎆╎تم إضافة قناة الاشتراك الاجباري للكروب .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎ارسـل الآن** `.اشتراك كروب`",
+                f"**⎆╎تم إضافة قناة الاشتراك الإجبـاري للكروب .. بنجـاح ☑️**\n\n**⎆╎ايدي القناة : ↶** `{event.chat_id}`\n\n**⎆╎أرسـل الآن** `.اشتراك كروب`",
             )
 
 
@@ -147,13 +147,13 @@ async def supc(event):
             if gvarstatus("sub_group"):
                 return await edit_or_reply(event, "**⎆╎الاشتـراك الاجبـاري مفعـل لـ مجمـوعة آخـرى**\n**⎆╎ارسل (.تعطيل كروب) لـ الغائـه وتفعيلـه هنـا**")
             addgvar("sub_group", event.chat_id)
-            return await edit_or_reply(event, "**⎆╎تم تفعيل الاشتراك الاجباري لـ هذه المجموعة .. بنجـاح✓**")
+            return await edit_or_reply(event, "**⎆╎تم تفعيل الاشتراك الإجبـاري لـ هذه المجموعة .. بنجـاح✓**")
     if ty == "خاص":
         if gvarstatus ("sub_private"):
             return await edit_delete(event, "**⎆╎الاشتـراك الاجبـاري لـ الخـاص مفعـل مسبقـاً**")
         if not gvarstatus ("sub_private"):
             addgvar ("sub_private", True)
-            await edit_or_reply(event, "**⎆╎تم تفعيل الاشتراك الاجباري لـ الخـاص .. بنجـاح✓**")
+            await edit_or_reply(event, "**⎆╎تم تفعيل الاشتراك الإجبـاري لـ الخـاص .. بنجـاح✓**")
     if ty not in ["خاص", "كروب", "جروب", "قروب", "مجموعة", "مجموعه"]:
         return await edit_delete(event, "**⎆╎اختـر نوع الاشتـراك الاجبـاري اولاً :**\n\n`.اشتراك كروب`\n\n`.اشتراك خاص`")
 
@@ -163,16 +163,16 @@ async def supc (event):
     cc = cc.replace(" ", "")
     if cc == "كروب" or cc == "جروب" or  cc == "قروب" or  cc == "مجموعة" or  cc == "مجموعه" or cc == "الكروب" or cc == "اشتراك الكروب":
         if not gvarstatus ("sub_group"):
-            return await edit_delete("**⎆╎الاشتراك الاجباري للكـروب غير مفعـل من الاسـاس ؟!**")
+            return await edit_delete("**⎆╎الاشتراك الإجبـاري للكـروب غير مفعـل من الاسـاس ؟!**")
         if gvarstatus ("sub_group"):
             delgvar ("sub_group")
-            return await edit_delete(event, "**⎆╎تم الغاء الاشتراك الاجباري للكروب .. بنجـاح ✓**")
+            return await edit_delete(event, "**⎆╎تم الغاء الاشتراك الإجبـاري للكروب .. بنجـاح ✓**")
     if cc == "خاص" or cc == "الخاص" or cc == "اشتراك الخاص":
         if not gvarstatus ("sub_private"):
-            return await edit_delete(event, "**⎆╎الاشتراك الاجباري للخـاص غير مفعـل من الاسـاس ؟!**")
+            return await edit_delete(event, "**⎆╎الاشتراك الإجبـاري للخـاص غير مفعـل من الاسـاس ؟!**")
         if gvarstatus ("sub_private"):
             delgvar ("sub_private")
-            return await edit_delete(event, "**⎆╎تم إلغاء الاشتراك الاجباري للخاص .. بنجـاح✓**")
+            return await edit_delete(event, "**⎆╎تم إلغاء الاشتراك الإجبـاري للخاص .. بنجـاح✓**")
     if cc not in ["خاص", "كروب", "جروب", "قروب", "مجموعة", "مجموعه", "الخاص", "اشتراك الخاص", "الكروب", "اشتراك الكروب"]:
         return await edit_delete(event, "**⎆╎اختـر نوع الاشتـراك الاجبـاري اولاً لـ الالغـاء :**\n\n`.تعطيل كروب`\n\n`.تعطيل خاص`")
 
@@ -202,12 +202,12 @@ async def supc(event):  # Zed-Thon - ZelZal
             if "chat not found" in reqt:
                 mb = await zedub.tgbot.get_me()
                 mb = mb.username
-                await zedub.tgbot.send_message(BOTLOG_CHATID, f"**⎆╎البوت الخاص بك @{mb} ليس في قناة الاشتراك الاجباري ؟!**")
+                await zedub.tgbot.send_message(BOTLOG_CHATID, f"**⎆╎البوت الخاص بك @{mb} ليس في قناة الاشتراك الإجبـاري ؟!**")
                 return
             if "bot was kicked" in reqt:
                 mb = await zedub.tgbot.get_me()
                 mb = mb.username
-                await zedub.tgbot.send_message(BOTLOG_CHATID, "**⎆╎البوت الخاص بك @{mb} مطرود من قناة الاشتراك الاجباري اعد اضافته؟!**")
+                await zedub.tgbot.send_message(BOTLOG_CHATID, "**⎆╎البوت الخاص بك @{mb} مطرود من قناة الاشتراك الإجبـاري اعد اضافته؟!**")
                 return
             if "not found" in reqt:
                 try:

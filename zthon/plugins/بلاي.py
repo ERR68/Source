@@ -9,7 +9,7 @@ plugin_category = "الترفيه"
 
 # بلاي 
 M = (
-    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 𝗧𝗘𝗣𝗧𝗛𝗢𝗡   **العـاب الاونلايـن** 🎮𓆪 \n"
+    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 𝗘𝗹𝗹𝗼𝗿𝘆   **العـاب الاونلايـن** 🎮𓆪 \n"
     "◐━─━─━─━──━─━─━─━◐\n\n"
     "  ❶ **⪼**  [حرب الفضاء 🛸](https://t.me/gamee?game=ATARIAsteroids)   \n"
     "  ❷ **⪼**  [لعبة فلابي بيرد 🐥](https://t.me/awesomebot?game=FlappyBird)   \n"
@@ -30,8 +30,8 @@ M = (
     "  ⓱ **⪼**  [جيت واي 🚨](https://t.me/gamee?game=Getaway)   \n"
     "  ⓲ **⪼**  [الالـوان 🔮](https://t.me/gamee?game=ColorHit)   \n"
     "  ⓳ **⪼**  [مدفع الكرات🏮](https://t.me/gamee?game=NeonBlaster)   \n\n\n"
-    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [محمد](t.me/PPF22)   \n"
-    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ](https://t.me/Tepthon)  "
+    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [المـطور](t.me/E_L_L_O_R_Y)   \n"
+    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [𝗘𝗹𝗹𝗼𝗿𝘆 ](https://t.me/SOURCE_ELLORY)  "
 )
 
 
@@ -39,7 +39,7 @@ M = (
     pattern="بلاي$",
     command=("بلاي", plugin_category),
     info={
-        "header": "العـاب الانـلاين لـ سـورس تيبـثون",
+        "header": "العـاب الانـلاين لـ سـورس اللـوري",
         "الاستـخـدام": "{tr}بلاي",
     },
 )

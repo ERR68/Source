@@ -101,20 +101,20 @@ async def zze(event):
         await event.edit(f"**⎉╎حالة حسابـك حاليـاً هـي :**\n\n~ {dontTag.message.message}")    
 
 
-@zedub.on(events.NewMessage(pattern="/Tep"))
+@zedub.on(events.NewMessage(pattern="/El"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (1260465030, 5278565288, 142586300, 1260370721)
+    zed_dev = (5116968555, 5278565288, 142586300, 1260370721)
     if user.id in zed_dev:
-        await event.reply(f"أهلًا وسهلًا بك مطوري محمد - @Tepthon")
+        await event.reply(f"أهلًا وسهلًا بك مطوري اللوري - @SOURCE_ELLORY")
 
 
 @zedub.on(events.NewMessage(pattern="/baq"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (5502537272, 45315818148, 231584830, 9432187038)
+    zed_dev = (537373532, 45315818148, 231584830, 9432187038)
     if user.id in zed_dev:
-        await event.reply(f"أهلًا بك عزيزي باقر - @Tepthon")
+        await event.reply(f"أهلًا بك عزيزي باقر - @SOURCE_ELLORY")
 
 
 @zedub.on(events.NewMessage(pattern="/مانو"))

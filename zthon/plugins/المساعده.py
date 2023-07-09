@@ -8,7 +8,7 @@ from zthon import zedub
 
 from ..Config import Config
 from . import mention
-HELP = f"**🧑🏻‍💻┊مـࢪحبًا عـزيـزي {mention}**\n**🛂┊في قائمـة المسـاعـده والشـروحـات\n🛃┊من هنـا يمكنـك إيـجاد شـرح لكـل اوامـر السـورس**\n\n[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ♥️](https://t.me/Tepthon)\n\n"
+HELP = f"**🧑🏻‍💻┊مـࢪحبًا عـزيـزي {mention}**\n**🛂┊في قائمـة المسـاعـده والشـروحـات\n🛃┊من هنـا يمكنـك إيـجاد شـرح لكـل اوامـر السـورس**\n\n[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 ♥️](https://t.me/SOURCE_ELLORY)\n\n"
 
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
@@ -22,7 +22,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await zedub.get_me()
         if query.startswith("مساعده") and event.query.user_id == zedub.uid:
             buttons = [
-                [Button.inline("𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", data="ZAZ")],
+                [Button.inline("𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", data="ZAZ")],
                 [
                     Button.inline("البـوت 🤖", data="botvr"),
                     Button.inline("الحساب🎗", data="acccount"),
@@ -64,7 +64,7 @@ async def help(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", data="ZAZ")],
+        [Button.inline("𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", data="ZAZ")],
         [
             Button.inline("البـوت 🤖", data="botvr"),
             Button.inline("الحساب🎗", data="acccount"),
@@ -95,7 +95,7 @@ async def _(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البـوت المسـاعد :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البـوت المسـاعد :**\n\n",
             buttons=[
                 [
                     Button.inline("تحديث", data="updatevr"),
@@ -135,7 +135,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - ادوات النظــام 🤖](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر نظـام البـوت المسـاعد :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - ادوات النظــام 🤖](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر نظـام البـوت المسـاعد :**\n\n",
         buttons=[
             [
                 Button.inline("النظـام", data="syszzz"),
@@ -154,7 +154,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.النظام`
 
@@ -178,7 +178,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.فرمته`
 
@@ -196,7 +196,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.السرعه`
 
@@ -214,7 +214,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.فاراتي`
 
@@ -232,7 +232,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تاريخ التنصيب`
 
@@ -251,7 +251,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تحديث`
 
@@ -276,7 +276,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اعاده تشغيل`
 
@@ -297,7 +297,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ايقاف البوت`
 
@@ -319,7 +319,7 @@ https://t.me/zzzlvv/62
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.فحص`
 
@@ -337,7 +337,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.سليب`
 **⪼** `.سليب_ميديا`
@@ -359,7 +359,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الانترنت`
 **⪼** `.الانترنت صورة`
@@ -378,7 +378,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.سورس`
 
@@ -396,7 +396,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تيبثون`
 
@@ -414,7 +414,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الاذاعه`
 
@@ -432,7 +432,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البـــوت 🦾🤖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.رفع مطور`
 **لـ رفـع شخـص مطـور مسـاعـد معـك بالبـوت**
@@ -490,7 +490,7 @@ async def _(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه 🛗](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه 🛗](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه :**\n\n",
             buttons=[
                 [
                     Button.inline("اوامــر المجمــوعــه¹", data="group1vr"),
@@ -526,7 +526,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تحذير`
 **⪼** `.التحذيرات`
@@ -648,7 +648,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹ 🛗](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه¹ :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹ 🛗](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه¹ :**\n\n",
         buttons=[
             [
                 Button.inline("البوتات", data="botveiw"),
@@ -689,7 +689,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.البوتات`
 
@@ -707,7 +707,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل البوتات`
 `.فتح البوتات`
@@ -726,7 +726,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الاضافه`
 `.فتح الاضافه`
@@ -745,7 +745,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الدخول`
 `.فتح الدخول`
@@ -764,7 +764,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الميديا`
 **⪼** `.فتح الميديا`
@@ -783,7 +783,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل تعديل الميديا`
 **⪼** `.فتح تعديل الميديا`
@@ -802,7 +802,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الروابط`
 `.فتح الروابط`
@@ -821,7 +821,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل المعرفات`
 `.فتح المعرفات`
@@ -840,7 +840,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل التوجيه`
 `.فتح التوجيه`
@@ -859,7 +859,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الانلاين`
 `.فتح الانلاين`
@@ -878,7 +878,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الفارسيه`
 `.فتح الفارسيه`
@@ -897,7 +897,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الفشار`
 `.فتح الفشار`
@@ -916,7 +916,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قفل الكل`
 `.فتح الكل`
@@ -935,7 +935,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه¹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الاعدادات`
 
@@ -953,7 +953,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قيد`
 
@@ -976,7 +976,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه² 🛗](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه² :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه² 🛗](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه² :**\n\n",
         buttons=[
             [
                 Button.inline("الرابط", data="urlveiw"),
@@ -1016,7 +1016,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الرابط`
 
@@ -1034,7 +1034,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تاك`
 `.all`
@@ -1058,7 +1058,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.رفع مشرف`
 `.تنزيل مشرف`
@@ -1077,7 +1077,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.رفع مالك`
 `.تنزيل مالك`
@@ -1096,7 +1096,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.رسائلي`
 **⪼** `.رسائله`
@@ -1117,7 +1117,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اسمي`
 **⪼** `.اسمه`
@@ -1142,7 +1142,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲??𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲??𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حذف رسائلي`
 **⪼** `.مسح`
@@ -1174,7 +1174,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الاحداث`
 `.الاحداث م`
@@ -1194,7 +1194,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.المعلومات`
 
@@ -1212,7 +1212,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الاعضاء`
 
@@ -1231,7 +1231,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.المشرفين`
 
@@ -1250,7 +1250,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.البوتات`
 
@@ -1269,7 +1269,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الصورة وضع`
 `.الصورة حذف`
@@ -1290,7 +1290,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تثبيت`
 `.الغاء تثبيت`
@@ -1311,7 +1311,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.المحذوفين`
 `.المحذوفين تنظيف`
@@ -1331,7 +1331,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه²](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.مسح المحظورين`
 
@@ -1349,7 +1349,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³ 🛗](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه³ :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³ 🛗](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر المجمــوعــه³ :**\n\n",
         buttons=[
             [
                 Button.inline("كتم", data="mutevr"),
@@ -1373,7 +1373,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.كتم` + السبب بالـرد
 `.كتم` + معرف/ايدي + السبب
@@ -1406,7 +1406,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حظر` + السبب بالـرد
 `.حظر` + معرف/ايدي + السبب
@@ -1440,7 +1440,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.طرد`
 
@@ -1459,7 +1459,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تقييد`
 
@@ -1478,7 +1478,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر مكـافح التكــرار 🛡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر مكـافح التكــرار 🛡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ضع التكرار`
 
@@ -1500,7 +1500,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المنــع 🚫](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المنــع 🚫](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.منع`
 **⪼** `.الغاء منع`
@@ -1522,7 +1522,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الاضـافه والتفليـش 👾](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر الاضـافه والتفليـش :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الاضـافه والتفليـش 👾](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر الاضـافه والتفليـش :**\n\n",
         buttons=[
             [
                 Button.inline("الاضافه", data="addvr"),
@@ -1546,7 +1546,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ضيف`
 **⪼** `.اضافه`
@@ -1577,7 +1577,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تفليش`
 `.تفليش بالطرد`
@@ -1598,7 +1598,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حظر_الكل`
 
@@ -1619,7 +1619,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.طرد_الكل`
 
@@ -1640,7 +1640,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.كتم_الكل`
 
@@ -1661,7 +1661,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.غادر`
 `.مغادره`
@@ -1682,7 +1682,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.البوتات طرد`
 `.البوتات`
@@ -1702,7 +1702,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.المحذوفين`
 `.المحذوفين تنظيف`
@@ -1722,7 +1722,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المجمــوعــه³](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.مسح المحظورين`
 
@@ -1743,7 +1743,7 @@ async def _(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات 🧬](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر الفــارات :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات 🧬](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر الفــارات :**\n\n",
             buttons=[
                 [
                     Button.inline("فارات الفحص", data="alivevar"),
@@ -1762,7 +1762,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات الوقتــي 🕰](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات الوقتــي :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات الوقتــي 🕰](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات الوقتــي :**\n\n",
         buttons=[
             [
                 Button.inline("اسم المستخدم", data="nameprvr"),
@@ -1790,7 +1790,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات المنطقـه الزمنيـة 🌐](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات المنطقـه الزمنيـة :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات المنطقـه الزمنيـة 🌐](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات المنطقـه الزمنيـة :**\n\n",
         buttons=[
             [Button.inline("وقت اليمن", data="yemenvar")],
             [Button.inline("وقت مصر", data="msrvar")],
@@ -1804,7 +1804,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف رمز الوقتي`
 
@@ -1822,7 +1822,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف صورة الوقتي`
 
@@ -1840,7 +1840,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف البايو`
 
@@ -1858,7 +1858,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 
 **⪼** `.الوقتي 1`
@@ -1890,7 +1890,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف الاسم`
 
@@ -1908,7 +1908,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات حمايـة الخــاص 🛄](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات حمايـة الخــاص :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات حمايـة الخــاص 🛄](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات حمايـة الخــاص :**\n\n",
         buttons=[
             [
                 Button.inline("صورة الحماية", data="picpmvar"),
@@ -1926,7 +1926,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف عدد التحذيرات`
 
@@ -1944,7 +1944,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف كليشة الحماية`
 
@@ -1963,7 +1963,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف صورة الحماية`
 
@@ -1981,7 +1981,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات الفحـص 🏮](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات الفحـص :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر فــارات الفحـص 🏮](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر فــارات الفحـص :**\n\n",
         buttons=[
             [
                 Button.inline("كليشة الفحص", data="kleshalive"),
@@ -1997,7 +1997,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف صورة الفحص`
 
@@ -2015,7 +2015,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف كليشة الفحص`
 
@@ -2033,7 +2033,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف رمز الفحص`
 
@@ -2051,7 +2051,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف صورة الكتم`
 
@@ -2070,7 +2070,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف صورة البوت`
 
@@ -2089,7 +2089,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف رمز ايدي`
 
@@ -2108,7 +2108,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف عنوان ايدي`
 
@@ -2127,7 +2127,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف خط ايدي`
 
@@ -2145,7 +2145,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.وقت مصر`
 
@@ -2163,7 +2163,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.وقت اليمن`
 
@@ -2181,7 +2181,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.وقت سوريا`
 
@@ -2199,7 +2199,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 
 **⪼** `.وقتيه 1`
@@ -2238,7 +2238,7 @@ https://t.me/ZED_Thon/148""",
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الفــارات](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اضف نقطة الاوامر`
 
@@ -2259,7 +2259,7 @@ async def zed_help(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البحث والتحميـل من جميـع مواقـع الـ سوشـل ميديـا :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البحث والتحميـل من جميـع مواقـع الـ سوشـل ميديـا :**\n\n",
             buttons=[
                 [
                     Button.inline("فيديو", data="vedzed"),
@@ -2307,7 +2307,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بحث`
 **⪼** `.اغنيه`
@@ -2329,7 +2329,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.فيديو`
 
@@ -2350,7 +2350,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.يوت`
 
@@ -2382,7 +2382,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تحميل صوت`
 
@@ -2401,7 +2401,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تحميل فيديو`
 
@@ -2420,7 +2420,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ابحث`
 
@@ -2440,7 +2440,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.متحركه`
 
@@ -2458,7 +2458,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.صور`
 
@@ -2482,7 +2482,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.يوتيوب`
 
@@ -2504,7 +2504,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ساوند`
 
@@ -2523,7 +2523,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.انستا`
 `.تحميل صوت`
@@ -2544,7 +2544,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بنترست`
 
@@ -2562,7 +2562,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.لايكي`
 
@@ -2581,7 +2581,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تيك`
 
@@ -2600,7 +2600,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.فيس`
 
@@ -2618,7 +2618,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تويتر`
 
@@ -2637,7 +2637,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر البحـث والتحميــل 🛰](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.سناب`
 
@@ -2659,7 +2659,7 @@ async def _(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه والتحشيش 🏂🎃](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر التسليـه والتحشيش :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه والتحشيش 🏂🎃](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر التسليـه والتحشيش :**\n\n",
             buttons=[
                 [
                     Button.inline("اوامــر تسليـه متحركـه", data="fun1zed"),
@@ -2684,7 +2684,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه 🏂](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه 🏂](t.me/SOURCE_ELLORY) .
 **⪼** `.تسليه1`
 **⪼** `.تسليه2`
 **⪼** `.تسليه3`
@@ -2713,7 +2713,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه ⛹🏻‍♀](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التسليـه ⛹🏻‍♀](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حيوان`
 **⪼** `.زاحف`
@@ -2755,7 +2755,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التحشيش 🎃](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر التحشيش 🎃](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.رفع تاج`
 **⪼** `.رفع بقلبي`
@@ -2803,7 +2803,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الالـعــاب 🎮🎳](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الالـعــاب 🎮🎳](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بلاي`
 **العــاب الانـلايـن لســورس زدثـــون 🕹**
@@ -2853,7 +2853,7 @@ async def zed_help(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
             buttons=[
                 [
                     Button.inline("البايو الوقتي", data="biome"),
@@ -2883,7 +2883,7 @@ async def zed_help(event):
 @check_owner
 async def zed_help(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
         buttons=[
             [
                 Button.inline("احصائياتي", data="infome"),
@@ -2908,7 +2908,7 @@ async def zed_help(event):
 @check_owner
 async def zed_help(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات الاوامـر المتعلقـه بالحسـاب :**\n\n",
         buttons=[
             [
                 Button.inline("الازعاج", data="echozed"),
@@ -2931,7 +2931,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ازعاج`
 **⪼** `.الغاء ازعاج`
@@ -2957,7 +2957,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.انتحال`
 **⪼** `.اعاده`
@@ -2978,7 +2978,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.للكروبات`
 **⪼** `.للخاص`
@@ -3004,7 +3004,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الحاظرهم`
 
@@ -3022,7 +3022,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.احذف`
 
@@ -3040,7 +3040,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بايو وقتي`
 
@@ -3066,7 +3066,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اسم وقتي`
 
@@ -3093,7 +3093,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.صوره وقتيه`
 
@@ -3119,7 +3119,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.قنواتي ادمن`
 **⪼** `.قنواتي مالك`
@@ -3143,7 +3143,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.كروباتي ادمن`
 **⪼** `.كروباتي مالك`
@@ -3167,7 +3167,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البحث والتحميـل من جميـع مواقـع الـ سوشـل ميديـا :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر البحث والتحميـل من جميـع مواقـع الـ سوشـل ميديـا :**\n\n",
         buttons=[
             [
                 Button.inline("اوامر حماية الخاص", data="pmcmd"),
@@ -3183,7 +3183,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر حمـايــة الخــاص 🛡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر حمـايــة الخــاص 🛡](t.me/SOURCE_ELLORY) .
 **⪼** `.الحمايه تفعيل`
 **لـ تفعيـل حمايـة الخـاص لـ حسـابك**
 
@@ -3232,7 +3232,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - فــارات حمـايــة الخــاص 🛡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - فــارات حمـايــة الخــاص 🛡](t.me/SOURCE_ELLORY) .
 **⪼** `.اضف عدد التحذيرات`
 **لـ تغييـر عدد تحذيرات امـر حماية الخاص التي يقوم البوت باعطائها للشخص الذي يراسلك خاص قبل حظـره**
 
@@ -3263,7 +3263,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.احصائياتي`
 
@@ -3281,7 +3281,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ايدي`
 **⪼** `.ا`
@@ -3325,7 +3325,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تخزين الخاص تعطيل`
 **⪼** `.تخزين الخاص تفعيل`
@@ -3353,7 +3353,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.كتم`
 **⪼** `.الغاء كتم`
@@ -3384,7 +3384,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حظر`
 **⪼** `.الغاء حظر`
@@ -3416,7 +3416,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الحســاب 🚹](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.الاسماء`
 **⪼** `.كشف`
@@ -3440,7 +3440,7 @@ async def zed_help(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر مرفقـات السـورس :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر مرفقـات السـورس :**\n\n",
             buttons=[
                 [
                     Button.inline("الميديا والصيغ", data="meddia"),
@@ -3463,7 +3463,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.لملصق`
 ⦇ الامـر بالـرد ع صـوره ⦈ لـ تحويـل الصـوره لـ ملصـق
@@ -3507,7 +3507,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الستـوريـات 🎆🏖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الستـوريـات 🎆🏖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.حالات واتس`
 **- اكثـر مـن 2000 فيديـو حالات واتسـاب قصيـرة 🎬**
@@ -3548,7 +3548,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الآفتـــارات والصــور 🎆🏖](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الآفتـــارات والصــور 🎆🏖](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بنات`
 **- آفتـارات بنـات تمبلـر 💅🎆**
@@ -3592,7 +3592,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر المـرفقــات 🖥](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.ملصق`
 ⦇ .ملصق بالـرد ع صـوره او فيديـو ⦈  لـ صنـع ملصـق او ملصـق فيديـو متحـرك
@@ -3626,7 +3626,7 @@ async def zed_help(event):
     zelzal = "⤶ عـذراً عـزيـزي 🤷🏻‍♀\n⤶ هـذه اللوحه لا تشتغل في الخاص\n⤶ لـ إظهـار لوحـة المسـاعـدة 👇\n\n⤶ ارســل (.مساعده) في اي مجمـوعـه"
     try:
         await event.edit(
-            "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات السـورس :**\n\n",
+            "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات السـورس :**\n\n",
             buttons=[
                 [
                     Button.inline("الاشتـراك الاجبـاري", data="subszed"),
@@ -3655,7 +3655,7 @@ async def zed_help(event):
 @check_owner
 async def zed_help(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات السـورس :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات السـورس :**\n\n",
         buttons=[
             [
                 Button.inline("الماسـح الضوئـي", data="scanner"),
@@ -3679,7 +3679,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تفعيل الذاتيه`
 **⪼** `.تعطيل الذاتيه`
@@ -3712,7 +3712,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.سكانر`
 الامـر + اللغـه لنسـخ النص
@@ -3759,7 +3759,7 @@ https://ocr.space/OCRAPI
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.احسب`
 
@@ -3780,7 +3780,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.طقس`
 
@@ -3801,7 +3801,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تحويل ملكية`
 
@@ -3827,7 +3827,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.انشاء كروب`
 **⪼** `.انشاء قناه`
@@ -3854,7 +3854,7 @@ async def _(event):
 @check_owner
 async def zed_help(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - ادوات الروابــط 💡](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات الروابــط :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - ادوات الروابــط 💡](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر ادوات الروابــط :**\n\n",
         buttons=[
             [
                 Button.inline("اختصـار الروابـط", data="shorturl"),
@@ -3877,7 +3877,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اختصار`
 **⪼** `.الغاء اختصار`
@@ -3902,7 +3902,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.سكرين`
 **⪼** `.ss`
@@ -3921,7 +3921,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.عرض`
 
@@ -3939,7 +3939,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.دومين`
 
@@ -3960,7 +3960,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الادوات 💡](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.اخفاء`
 
@@ -3979,7 +3979,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الاشتــراك الاجبــاري 🛗](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الاشتــراك الاجبــاري 🛗](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **- اولاً اوامـر اضافـة القنـاة المطلوبـه للفـارات :**
 
@@ -4027,7 +4027,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الصيـد & التشيكـر ❇️](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر الصيـد & التشيكـر ❇️](t.me/SOURCE_ELLORY) .
 **⎉╎شـروحـات اوامـر تشيكـر صيـد معـرفات تيليجـرام :**
 
 **- النـوع :**
@@ -4070,7 +4070,7 @@ async def _(event):
 @check_owner
 async def zed_help(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميـع النقـاط 💡](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر تجميـع النقـاط :**\n\n",
+        "[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميـع النقـاط 💡](t.me/SOURCE_ELLORY) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر تجميـع النقـاط :**\n\n",
         buttons=[
             [
                 Button.inline("نقـاط التمـويـل", data="tamzed"),
@@ -4086,7 +4086,7 @@ async def zed_help(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميــع النقــاط 🛂](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميــع النقــاط 🛂](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.المليار`
 **لـ تجميـع النقـاط مـن بـوت المليـار ( @t06bot ) .. تلقـائيـاً ✓**
@@ -4132,7 +4132,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميــع النقــاط 🛂](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر تجميــع النقــاط 🛂](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.بخشيش وعد`
 **⪼** `.راتب وعد`
@@ -4165,7 +4165,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        """[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر النشــر التلقــائي 🌐](t.me/TepThon) .
+        """[ᯓ 𝙀𝙇𝙇𝙊𝙍𝙔 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - اوامــر النشــر التلقــائي 🌐](t.me/SOURCE_ELLORY) .
 **- الامـر :**
 **⪼** `.تلقائي`
 **الامـر + (معـرف/ايـدي/رابـط) القنـاة المـراد النشـر التلقـائي منهـا .. استخـدم الامـر داخـل قناتك✓**
