@@ -314,10 +314,10 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("قنـاة السـورس", "https://t.me/Tepthon"),
+                Button.url("قنـاة السـورس", "https://t.me/SOURCE_ELLORY"),
                 Button.url(
                     "مطـور السـورس",
-                    "https://t.me/PPF22",
+                    "https://t.me/E_L_L_O_R_Y",
                 ),
             )
         ]
