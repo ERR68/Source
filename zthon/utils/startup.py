@@ -306,7 +306,7 @@ async def mybot():
 
             await asyncio.sleep(1)
 
-            await bot.send_message("@BotFather", f"- بـوت تيبـثون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت اللـوري المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
 
             await asyncio.sleep(3)
 
@@ -318,7 +318,7 @@ async def mybot():
 
             await asyncio.sleep(1)
 
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @SOURCE_ELLORY 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊أنـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @SOURCE_ELLORY 🌐")
 
         except Exception as e:
 
